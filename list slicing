@@ -1,0 +1,5 @@
+l = list("abcdefghij")
+print("Current list:", l)
+print("first 3 letters:", l[:3])
+print("middle 3 letters:", l[4:7])
+print("Till the end:", l[4:])
