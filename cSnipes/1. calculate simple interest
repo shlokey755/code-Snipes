@@ -1,0 +1,10 @@
+include <stdio.h>
+include <conio.h>
+void main() {
+    int si, amt, p=1000,r=5,t=12;
+    si = (p*r*t)/100;
+    amt = p+si;
+    printf("Simple Interest: %d ",si);
+    printf("Amount: %d",amt);
+
+}
