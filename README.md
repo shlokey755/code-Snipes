@@ -1,5 +1,5 @@
-# reboot.py
-contains practice codes of python
+# code-Snipes
+contains practice snippet codes of python
 
 
 Author: me
