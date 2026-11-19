@@ -1,5 +1,5 @@
 # code-Snipes
-contains practice snippet codes of python
+contains practice codes
 
 
 Author: me
