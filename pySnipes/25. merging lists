@@ -1,0 +1,8 @@
+l = [1,2,3]
+l2 = [a,b,c,r]
+
+print(f"Merging lists {l} and {l2}\n")
+print("Using "+" operator: {l+l2}\n")
+print("Using extend() method: ")
+l.extend(l2)
+print("Result: {l}")
