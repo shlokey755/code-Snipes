@@ -6,3 +6,12 @@ while True:
     print("2. Open a file.")
     print("3. Read a file.")
     print("4. Edit a file.")
+    print("", end="\n")
+    ch = int(input("Select an option: "))
+
+    if ch == 1:
+        print("Creating an empty file")
+        _name_ = input("Enter a name for the file: ")
+        with open(f"{_name_}.txt","x") as "f":
+            pass
+        
