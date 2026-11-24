@@ -12,6 +12,17 @@ while True:
     if ch == 1:
         print("Creating an empty file")
         _name_ = input("Enter a name for the file: ")
-        with open(f"{_name_}.txt","x") as "f":
+        with open(f"{_name_}.txt","x") as f:
             pass
+
+    elif ch == 2:
+        print("Opening a file")
+        _name_ = input("Enter a file name to open it: ")
+        with open(f"{_name_}.txt","r") as f:
+            print("File has been opened.")
+            print("now closing....")
+        
+    
+
+
         
