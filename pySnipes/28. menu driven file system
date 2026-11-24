@@ -1,0 +1,8 @@
+#code to create a menu driven file system
+
+while True:
+    print("File System Menu")
+    print("1. Create a file.")
+    print("2. Open a file.")
+    print("3. Read a file.")
+    print("4. Edit a file.")
