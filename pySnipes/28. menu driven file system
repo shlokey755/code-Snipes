@@ -22,7 +22,11 @@ while True:
             print("File has been opened.")
             print("now closing....\n")
     
-    
+    elif ch == 3:
+        print("\nOpening Read Menu:\n")
+        print("1. Open the whole file.")
+        print("2. readline()")
+        print("3. readlines()")
 
         
     
