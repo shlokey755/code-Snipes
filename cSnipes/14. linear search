@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int data[20],i,n,loc,item;
+clrscr();
+printf("Enter a number of elements:");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d",&data[i]);
+}
+printf("\nEnter the element to serach:");
+scanf("%d",&item);
+loc=-1;
+i=1;
+while(i<n && data[i]!=item)
+{
+i=i+1;
+if(data[i]==item)
+loc=i;
+}
+if (loc==-1)
+{
+printf("\nItem does not found");
+}
+else
+{
+printf("\n%d item found at location %d",item,loc);
+}
+getch();
+}
