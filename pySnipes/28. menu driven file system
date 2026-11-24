@@ -10,10 +10,10 @@ while True:
     ch = int(input("Select an option: "))
 
     if ch == 1:
-        print("Creating an empty file")
+        print("\nCreating an empty file\n")
         _name_ = input("Enter a name for the file: ")
         with open(f"{_name_}.txt","x") as f:
-            pass
+            print(f"File by the name of {_name_} has been created.")
 
     elif ch == 2:
         print("Opening a file")
