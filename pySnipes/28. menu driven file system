@@ -16,11 +16,14 @@ while True:
             print(f"File by the name of {_name_} has been created.")
 
     elif ch == 2:
-        print("Opening a file")
-        _name_ = input("Enter a file name to open it: ")
+        print("\nOpening a file\n")
+        _name_ = input("Enter a file name to open it: \n")
         with open(f"{_name_}.txt","r") as f:
             print("File has been opened.")
-            print("now closing....")
+            print("now closing....\n")
+    
+    
+
         
     
 
