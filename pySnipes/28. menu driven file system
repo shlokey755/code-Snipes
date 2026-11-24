@@ -40,6 +40,18 @@ while True:
                 break
             break
 
+            elif nig == 3:
+                pass
+                break
+            break
+
+    else:
+        print("\nInvalid choice....")
+        print("\nForce closing the file system")
+        break
+    break
+
+
 
 
 
