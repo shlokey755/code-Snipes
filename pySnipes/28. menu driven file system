@@ -23,10 +23,28 @@ while True:
             print("now closing....\n")
     
     elif ch == 3:
-        print("\nOpening Read Menu:\n")
-        print("1. Open the whole file.")
-        print("2. readline()")
-        print("3. readlines()")
+        while True:
+            print("\nOpening Read Menu:\n")
+            print("1. Open the whole file.")
+            print("2. readline()")
+            print("3. readlines()")
+            nig = int(input("\nEnter mode: \n"))
+
+            if nig == 1:
+                pass
+                break
+            break
+
+            elif nig == 2:
+                pass
+                break
+            break
+
+
+
+
+
+        
 
         
     
